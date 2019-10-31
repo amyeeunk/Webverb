@@ -1,0 +1,101 @@
+
+    body 
+    {animation: colorchange 20s infinite; }
+
+    @keyframes colorchange
+    {
+      10% {background: #fff4e4;}
+      25% {background: #ffb6b9;}
+      50% {background: #fae3d9;}
+      65% {background: #bbded6;}
+      90% {background: #8ac6d1;}
+      95% {background: #fff4e4;}
+    }
+
+ #centre
+    {
+     width: 18px;
+     height: 18px;
+     background: black;
+     border-radius: 50%;
+     position:absolute;
+     left:48.7%;
+	 top:48.7%;
+	
+}
+
+#face {
+  	width: 300px;
+  	height: 300px;
+  	border: 3px solid black;
+  	position:absolute;
+  	left:28%;
+	top:13%;
+}
+    
+
+.second-hand{
+	position:absolute;
+	height:3px;
+	width:120px;
+	background:red;
+	left:50%;
+	top:50%;
+	transform-origin:0% 50%;
+	transform:translate(0%, 0%) rotate(-90deg);
+}
+
+.minute-hand{
+	position:absolute;
+	height:7px;
+	width:100px;
+	background:black;
+	left:50%;
+	top:50%;
+	transform-origin:0% 50%;
+	transform:translate(0%, 0%) rotate(-90deg);
+
+}
+
+.hour-hand{
+	position:absolute;
+	height:7px;
+	width:60px;
+	background:black;
+	left:50%;
+	top:50%;
+	transform-origin:0% 50%;
+	transform:translate(0%, 0%) rotate(-90deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
